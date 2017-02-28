@@ -12,6 +12,7 @@
 		2CC463FC1E64D04F00B76CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC463FA1E64D04F00B76CBE /* Main.storyboard */; };
 		2CC463FE1E64D04F00B76CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC463FD1E64D04F00B76CBE /* Assets.xcassets */; };
 		2CC464011E64D04F00B76CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC463FF1E64D04F00B76CBE /* LaunchScreen.storyboard */; };
+		2CC464091E64D2B900B76CBE /* MyCustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC464081E64D2B900B76CBE /* MyCustomControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2CC463FD1E64D04F00B76CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC464001E64D04F00B76CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC464021E64D04F00B76CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC464081E64D2B900B76CBE /* MyCustomControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		2CC463F51E64D04F00B76CBE /* TestyEgzaminacyjne */ = {
 			isa = PBXGroup;
 			children = (
-				2CC463F61E64D04F00B76CBE /* AppDelegate.swift */,
-				2CC463F81E64D04F00B76CBE /* ViewController.swift */,
 				2CC463FA1E64D04F00B76CBE /* Main.storyboard */,
+				2CC463F81E64D04F00B76CBE /* ViewController.swift */,
+				2CC463F61E64D04F00B76CBE /* AppDelegate.swift */,
+				2CC464021E64D04F00B76CBE /* Info.plist */,
 				2CC463FD1E64D04F00B76CBE /* Assets.xcassets */,
 				2CC463FF1E64D04F00B76CBE /* LaunchScreen.storyboard */,
-				2CC464021E64D04F00B76CBE /* Info.plist */,
+				2CC464081E64D2B900B76CBE /* MyCustomControl.swift */,
 			);
 			path = TestyEgzaminacyjne;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC463F91E64D04F00B76CBE /* ViewController.swift in Sources */,
+				2CC464091E64D2B900B76CBE /* MyCustomControl.swift in Sources */,
 				2CC463F71E64D04F00B76CBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
