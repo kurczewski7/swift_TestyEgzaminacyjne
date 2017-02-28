@@ -397,11 +397,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="lo8-Oe-gtl">
-                                <frame key="frameInset" minY="115" width="384" height="403"/>
+                                <frame key="frameInset" minY="115" width="384" height="405"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EsT-bH-qZZ">
-                                        <frame key="frameInset" width="384" height="248"/>
+                                        <frame key="frameInset" width="384" height="250"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pierwsze pytanie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umk-F0-h1Q">
                                                 <frame key="frameInset" minX="128" width="129" height="21"/>
@@ -410,7 +410,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJ9-wn-Bey">
-                                                <frame key="frameInset" minY="31" width="384" height="217"/>
+                                                <frame key="frameInset" minY="31" width="384" height="219"/>
                                                 <color key="backgroundColor" red="0.33333333329999998" green="0.72549019609999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </imageView>
                                         </subviews>
@@ -419,7 +419,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="xUS-A2-AeQ">
-                                        <frame key="frameInset" minX="122" minY="283" width="140" height="120"/>
+                                        <frame key="frameInset" minX="122" minY="285" width="140" height="120"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7a-v9-v3b">
                                                 <frame key="frameInset" width="140" height="30"/>
